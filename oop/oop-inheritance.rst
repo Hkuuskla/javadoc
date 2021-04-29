@@ -61,7 +61,7 @@ või omadusi.
 Selleks defineeritakse sama nimega meetod, mille sisu erineb pisut ülemklassi samanimelise funktsiooni koodist. 
 
 Täpsemalt on võimalik selle kohta lugeda OOP *Override* ja *Overload* teema juures:
-https://github.com/tutjava/materjalid/blob/master/oopOverrideVsOverload.rst
+https://ained.ttu.ee/javadoc/oop/oop-override-vs-overload.html
 
 Konstruktorid
 -------------
