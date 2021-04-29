@@ -29,15 +29,19 @@ Esimeseks päriselt OOP keeleks võib nimetada Smalltalk'i. (*circa* 1970)
 
 Klassiks on objektide loomise plaan või üldistus. (blueprint for creating objects)
 
-3. Polümorfism
+3. Päriminse
+
+Inheritance’i ehk pärimise abil saab luua ülemklasse ning neile vastavaid alamklasse. Ülemklass on justkui üldisem mõiste, mille alla saavad kuuluda täpsemad sama mõistet kirjeldavad mõisted. Näiteks võib üldisemaks mõisteks olla pirukas, omakorda on aga olemas ka magusad ja soolased prirukad, soolased pirukad on võimalik jaotada näiteks juustu-, liha-, kapsa- ning porgandipirukateks. 
+
+4. Polümorfism
 
 On siis, kui ühte ja sama tegevust saab mitut erinevat moodi teha. Näiteks kui loomad teevad häält, siis koer hakkab haukuma ning part hakkab prääksuma. Javas kasutatakse selle tarvis **@Override** ja **@Overload** kontseptsioone.
 
-4. Abstraheerimine
+5. Abstraheerimine
 
 Kui me teeme telefonikõnesid, siis ei tea me täpselt, kuidas kogu sidesüsteem töötab. Javas toimib sarnane kontseptsioon, kus me peidame seesmisi detaile ning näitame ainult funktsionaalsust. Selle tarvis on javas **abstract class** ja **interface**.
 
-5. Kapseldamine
+6. Kapseldamine
 
 Kapseldamine on mehhanism, mille abil väljad ning meetodid seotakse ühte kohta kokku. Kapseldamise korral on klassi väljad peidetud teiste klasside eest, kuid samas klassis asuvate *public* meetodite abil saavad teised klassid selle info kätte. Selle tarvis on javas **getterid** ja **setterid**.
 
